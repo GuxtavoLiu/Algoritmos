@@ -43,6 +43,22 @@ public class Preencher_random {
         }
 
         //CALCULANDO A MÉDIA ARITMÉTICA
+        //somando
+        int soma = 0;
+        double mediaa;
+        for (int l = 0; l < 5; l++) {
+            for (int c = 0; c < 10; c++) {
+               soma = soma + matriz[l][c];
+            }
+        }
+        mediaa = soma/(5*10);
+        
+        System.out.println("");
+        
+        System.out.println("Soma = " + soma);
+        System.out.println("");
+        System.out.println("Média Aritmética = " + mediaa);
+        
         System.out.println(""
                 + ""
                 + ""
